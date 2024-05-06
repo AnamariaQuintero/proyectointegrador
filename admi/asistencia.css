@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #B3F2E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6F3F5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 30%;
+    height: 520px;
+    
+}
+
+.codigoContainer>button{
+    margin-top: 100px;
+    height: 150px;
+    width: 300px;
+    font-size: 45px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    background-color: beige;
+    color: black;
+    border: transparent;
+
+
+    
+}
+.codigoContainer>button:hover{
+    background-color: #B3F2E0;
+    transition: all ease-in-out .5s;
+}
+
+.codigoContainer>p{
+    margin-top: 160px;
+    /* display: flex; */
+    font-size: 35px;
+    /* align-items: center; */
+    text-align: center;
+}

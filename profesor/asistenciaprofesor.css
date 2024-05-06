@@ -1,0 +1,57 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #B3F2E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 228, 198);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.container>button{
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    background-color: beige;
+    color: black;
+    border: transparent;
+    border-radius: 5px;
+
+    
+}
+
+.container>button:hover{
+    background-color: #fff;
+    transition: all ease-in-out .5s;
+}
+
+.container>p{
+    margin-top: 160px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.container>input{
+    width: 200px;
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}

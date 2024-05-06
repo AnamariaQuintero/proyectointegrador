@@ -14,12 +14,15 @@
                 Inicio de sesión
             </h1>
             <section class="rol">
-                <a href="#">Profesor</a>
-                <a href="#">Estudiante</a>
-                <a href="#">Administrativo</a>
+                <button onclick="selectRole('profesor')">Profesor</button>
+                <button onclick="selectRole('estudiante')">Estudiante</button>
+                <button onclick="selectRole('admin')">Administrativo</button>
             </section>
+            <button class="push" onclick="login()">Iniciar Sesión</button>
         </section>
     </div>
+
+    <script src="login.js"></script>
     
 </body>
 </html>
